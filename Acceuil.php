@@ -49,7 +49,7 @@ if (isset($_POST['btADD'])) {
         $errors = "Echec de l'insertion de donnees";
     }
 
-    @header("Location:./Acceuil.php?name="+$message);
+    @header("Location:./Acceuil.php?name=".$message);
 }
 ?>
 
